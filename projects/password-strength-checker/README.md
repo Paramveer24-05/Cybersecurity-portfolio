@@ -1,25 +1,54 @@
-# Python Password Strength Checker
+# # 🔐 Python Password Strength Checker
 
-## About
-A beginner Python cybersecurity project that checks password strength using basic validation rules.
+A beginner-level cybersecurity project built using Python. This program validates passwords using different security rules and checks their strength.
 
-## Concepts Used
-- Python functions
-- If-else conditions
-- Loops
+## 📌 Project Overview
+
+The Password Strength Checker checks whether a password meets basic security requirements, helping users understand the importance of creating stronger passwords.
+
+## ✨ Features
+
+- Checks minimum password length (8 characters).
+- Checks for uppercase letters.
+- Checks for lowercase letters.
+- Checks for numbers.
+- Checks for special characters.
+- Rejects passwords containing spaces.
+- Classifies password strength.
+
+## ▶️ How to Run
+
+1. Download or copy `password_checker.py`.
+2. Open it using Python or an online Python compiler.
+3. Run the program.
+4. Enter a dummy password for testing.
+5. Check the result.
+
+## 🧪 Sample Tests
+
+| Test Password | Expected Result |
+|---|---|
+| `hello` | Invalid |
+| `Hello123` | Invalid |
+| `Hello123@` | Valid |
+| `Hello 123@` | Invalid |
+| `python123@` | Invalid |
+
+## 📚 Python Concepts Learned
+
+- Variables
+- Functions
+- If-else statements
+- `return`
 - `any()`
 - String methods
 - Input and output
 
-## Planned Features
-- Minimum password length
-- Uppercase and lowercase checks
-- Number and special character checks
-- Space validation
-- Weak, Medium, and Strong classification
+## 🔒 Security Note
 
-## Project Status
-In progress — features are still being developed and tested.
+This is an educational project. It does not store or transmit passwords. Always use dummy passwords during testing. Never enter your real password.
 
-## Safety
-Use only dummy passwords for testing. Never enter real passwords.
+
+## 📊 Project Status
+
+**In Progress** — Basic password validation and strength checking are being developed and tested.
