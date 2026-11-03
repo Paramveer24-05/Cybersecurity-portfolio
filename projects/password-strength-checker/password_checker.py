@@ -1,24 +1,8 @@
+
 def valid_password(password):
 
     if len(password) < 8:
         print("Password must be at least 8 characters")
-        return False
-
-    if not any(char.isupper() for char in password):
-        print("Password must contain an uppercase letter")
-        return False
-
-    if not any(char.islower() for char in password):
-        print("Password must contain a lowercase letter")
-        return False
-
-    if not any(char.isdigit() for char in password):
-        print("Password must contain a number")
-        return False
-
-    if not any(not char.isalnum() and not char.isspace()
-               for char in password):
-        print("Password must contain a special character")
         return False
 
     if any(char.isspace() for char in password):
